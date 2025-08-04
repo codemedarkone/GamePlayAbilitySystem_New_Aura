@@ -3,17 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Character/AuraCharacterBase.h"
-#include "AuraCharacter.generated.h"
+#include "AbilitySystemComponent.h"
+#include "AuraAbilitySystemComponent.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class NEWAURA_API AAuraCharacter : public AAuraCharacterBase
+class NEWAURA_API UAuraAbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
 	
-public:
-	AAuraCharacter();
 };
